@@ -11,21 +11,25 @@
 		</form>
 		<br>
 		<?php
+			require("functions.php");
 			$road = null;
 			if(isset($_POST['num'])){
 				$road = (int)$_POST['num'] % 60;
 				echo "road ".(int)$road,"<br>";
 			}
 			switch(true){
-				case $road === null;
+				case $road === null:
 					break;
 				case $road === 7:
+					break;
+				case $road === 11:
+					$answer = load11((int)$_POST['num']);
+					echo $answer;
 					break;
 				default:
 					echo "sorry, not support this number.<br>";
 					break;
 			}
-			require("functions.php");
 		?>
 	</body>
 </html>

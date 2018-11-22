@@ -263,7 +263,7 @@ function axis_load11($axis,$num1,$num2,$Q){
 		return null;
 	}
 }
-print( load11(75311));
+//print( load11(75311));
 
 ?>
 

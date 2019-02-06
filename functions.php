@@ -27,8 +27,8 @@ function load7($num){
 					$answer = axis_load(13,$i,$count,$num);
 				}
 			//axis17,11
-			}else if(15*($count-1)*($count-1)-3*($count-1) == 15*$i*$i-18*$i+5-$K||
-				15*($count-1)*($count-1)+3*($count-1) == 15*$i*$i-18*$i+5-$K){
+			}else if(15*($count-1)*($count-1)-3*($count-1) == 15*$i*$i-16*$i+5-$K||
+				15*($count-1)*($count-1)+3*($count-1) == 15*$i*$i-16*$i+5-$K){
 				if( axis_load(17,$i,$count,$num)!=null){
 					$answer = axis_load(17,$i,$count,$num);
 				}else{

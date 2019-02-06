@@ -35,18 +35,18 @@ function load7($num){
 			//axis23,29
 			}else if(15*($count-1)*($count-1)-3*($count-1) == 15*$i*$i-4*$i+1-$K||
 				15*($count-1)*($count-1)+3*($count-1) == 15*$i*$i-4*$i+1-$K){
-				if( axis_load(19,$i,$count,$num)!=null){
-					$answer = axis_load(19,$i,$count,$num);
+				if( axis_load(23,$i,$count,$num)!=null){
+					$answer = axis_load(23,$i,$count,$num);
 				}else{
-					$answer = axis_load(13,$i,$count,$num);
+					$answer = axis_load(29,$i,$count,$num);
 				}
 			//axis7,61
 			}else if(15*($count-1)*($count-1)-27*($count-1) == 15*$i*$i-12*$i+1-$K||
 				15*($count-1)*($count-1)+27*($count-1) == 15*$i*$i-12*$i+1-$K){
-				if( axis_load(19,$i,$count,$num)!=null){
-					$answer = axis_load(19,$i,$count,$num);
+				if( axis_load(7,$i,$count,$num)!=null){
+					$answer = axis_load(7,$i,$count,$num);
 				}else{
-					$answer = axis_load(13,$i,$count,$num);
+					$answer = axis_load(61,$i,$count,$num);
 				}
 			}else if(15*($count-1)*($count-1)-3*($count-1) < 15*$i*$i-12*$i+2-$K&&
 				15*($count-1)*($count-1)+3*($count-1) < 15*$i*$i-12*$i+2-$K&&

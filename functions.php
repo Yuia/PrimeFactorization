@@ -8,6 +8,7 @@ function load7($num){
 		$count=$count+1;
 		while(true){
 			//axis37,31
+			$i=$count;
 			if(15*($count-1)*($count-1)-3*($count-1) == 15*$i*$i-12*$i+2-$K||
 				15*($count-1)*($count-1)+3*($count-1) == 15*$i*$i-12*$i+2-$K){
 				if( axis_load(37,$i,$count,$num)!=null){
@@ -75,12 +76,13 @@ function load11($num){
 	$answer = array(0);
 	while($answer[0] == 0){
 		$count=$count+1;
+		$i=$count;
 		while(true){
 			//if(15*($count-1)*($count-1)+25*($count-1) == 15*$i*$i+6*$count-9+6*($i-$count)-$K||
 				//15*($count-1)*($count-1)-25*($count-1) == 15*$i*$i+6*$count-9+6*($i-$count)-$K){
 			//axis11,61
-			if(15*($count-1)*($count-1)+25*($count-1) == 15*$i*$i+6*$count-9-$K||
-				15*($count-1)*($count-1)-25*($count-1) == 15*$i*$i+6*$count-9-$K){
+			if(15*($count-1)*($count-1)+25*($count-1) == 15*$i*$i+6*$i-9-$K||
+				15*($count-1)*($count-1)-25*($count-1) == 15*$i*$i+6*$i-9-$K){
 				if( axis_load(11,$i,$count,$num)!=null){
 					$answer = axis_load(11,$i,$count,$num);
 				}else{
@@ -122,8 +124,8 @@ function load11($num){
 				}
 				*/
 			//axis31,41
-			}else if(15*($count-1)*($count-1)-5*($count-1) == 15*$i*$i+6*$count+1-$K||
-				15*($count-1)*($count-1)+5*($count-1) == 15*$i*$i+6*$count+1-$K){
+			}else if(15*($count-1)*($count-1)-5*($count-1) == 15*$i*$i+6*$i+1-$K||
+				15*($count-1)*($count-1)+5*($count-1) == 15*$i*$i+6*$i+1-$K){
 				if( axis_load(31,$i,$count,$num)!=null){
 					$answer = axis_load(31,$i,$count,$num);
 				}else{
@@ -134,18 +136,13 @@ function load11($num){
 				$hoge=($i-$count)*30+31;
 				$answer = $num/$hoge;
 				if($answer - round($answer)==0){
-					//print((string)$answer);
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
 					$break;
 				}else{
 					$hoge=($i-$count)*30+41;
 					$answer = $num/$hoge;
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
 					$break;
 				}
-			}else if(15*($count-1)*($count-1)+25*($count-1) == 15*$i*$i+6*$count-1+6*($i-$count)-$K){
+			}else if(15*($count-1)*($count-1)+25*($count-1) == 15*$i*$i+6*$i-1+6*($i-$count)-$K){
 				$hoge=($i-$count)*30+31;
 				$answer = $num/$hoge;
 				if($answer - round($answer)==0){

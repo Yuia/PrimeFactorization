@@ -21,9 +21,63 @@
 				case $road === null:
 					break;
 				case $road === 7:
+					$answer = load7((int)$_POST['num']);
+					echo $answer;
 					break;
 				case $road === 11:
 					$answer = load11((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 13:
+					$answer = load13((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 17:
+					$answer = load17((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 19:
+					$answer = load19((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 23:
+					$answer = load23((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 29:
+					$answer = load29((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 31:
+					$answer = load31((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 37:
+					$answer = load37((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 41:
+					$answer = load41((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 43:
+					$answer = load43((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 49:
+					$answer = load49((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 53:
+					$answer = load53((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 59:
+					$answer = load59((int)$_POST['num']);
+					echo $answer;
+					break;
+				case $road === 1:
+					$answer = load61((int)$_POST['num']);
 					echo $answer;
 					break;
 				default:

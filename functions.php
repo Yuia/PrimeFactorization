@@ -65,7 +65,6 @@ function load7($num){
 	}
 	$stranswer = (string)$answer[0]." ".$answer[1];
 	return $stranswer;
-	return 0;
 }
 
 function load11($num){
@@ -1278,7 +1277,7 @@ function axis_load($axis,$num1,$num2,$Q){
 		return null;
 	}
 }
-print( load61(46561));
+//print( load61(46561));
 
 ?>
 

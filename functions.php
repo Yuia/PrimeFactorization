@@ -6,10 +6,10 @@ function load7($num){
 	$answer = array(0);
 	while($answer[0] == 0){
 		$count=$count+1;
+		$i=$count;
 		while(true){
 			//print("hoge");
 			//axis37,31
-			$i=$count;
 			if(15*($count-1)*($count-1)-3*($count-1) == 15*$i*$i-12*$i+2-$K||
 				15*($count-1)*($count-1)+3*($count-1) == 15*$i*$i-12*$i+2-$K){
 			print("hoge");

@@ -8,11 +8,9 @@ function load7($num){
 		$count=$count+1;
 		$i=$count;
 		while(true){
-			//print("hoge");
 			//axis37,31
 			if(15*($count-1)*($count-1)-3*($count-1) == 15*$i*$i-12*$i+2-$K||
 				15*($count-1)*($count-1)+3*($count-1) == 15*$i*$i-12*$i+2-$K){
-			print("hoge");
 				if( axis_load(37,$i,$count,$num)!=null){
 					$answer = axis_load(37,$i,$count,$num);
 				}else{

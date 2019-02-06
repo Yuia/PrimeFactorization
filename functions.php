@@ -78,8 +78,6 @@ function load11($num){
 		$count=$count+1;
 		$i=$count;
 		while(true){
-			//if(15*($count-1)*($count-1)+25*($count-1) == 15*$i*$i+6*$count-9+6*($i-$count)-$K||
-				//15*($count-1)*($count-1)-25*($count-1) == 15*$i*$i+6*$count-9+6*($i-$count)-$K){
 			//axis11,61
 			if(15*($count-1)*($count-1)+25*($count-1) == 15*$i*$i+6*$i-9-$K||
 				15*($count-1)*($count-1)-25*($count-1) == 15*$i*$i+6*$i-9-$K){
@@ -88,41 +86,6 @@ function load11($num){
 				}else{
 					$answer = axis_load(61,$i,$count,$num);
 				}
-				/*
-				$hoge=($i-$count)*30+11;
-				$answer = $num/$hoge;
-				if($answer - round($answer)==0){
-					//print(15*($count-1)*($count-1)+25*($count-1));
-					//print(" ");
-					$break;
-				}else{
-					$hoge=($i-$count)*30+61;
-					$answer = $num/$hoge;
-					//print(15*($count-1)*($count-1)+25*($count-1));
-					//print(" ");
-					$break;
-				}
-			}else if(15*($count-1)*($count-1)-25*($count-1) == 15*$i*$i+6*$count-9+6*($i-$count)-$K){
-				if( axis_load11(11,$i,$count,$num)!=null){
-					$answer = axis_load11(11,$i,$count,$num);
-				}else{
-					$answer = axis_load11(61,$i,$count,$num);
-				}
-				$hoge=($i-$count)*30+11;
-				$answer = $num/$hoge;
-				if($answer - round($answer)==0){
-					//print((string)$answer);
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}else{
-					$hoge=($i-$count)*30+61;
-					$answer = $num/$hoge;
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}
-				*/
 			//axis31,41
 			}else if(15*($count-1)*($count-1)-5*($count-1) == 15*$i*$i+6*$i+1-$K||
 				15*($count-1)*($count-1)+5*($count-1) == 15*$i*$i+6*$i+1-$K){
@@ -131,33 +94,6 @@ function load11($num){
 				}else{
 					$answer = axis_load(41,$i,$count,$num);
 				}
-				
-			/*
-				$hoge=($i-$count)*30+31;
-				$answer = $num/$hoge;
-				if($answer - round($answer)==0){
-					$break;
-				}else{
-					$hoge=($i-$count)*30+41;
-					$answer = $num/$hoge;
-					$break;
-				}
-			}else if(15*($count-1)*($count-1)+25*($count-1) == 15*$i*$i+6*$i-1+6*($i-$count)-$K){
-				$hoge=($i-$count)*30+31;
-				$answer = $num/$hoge;
-				if($answer - round($answer)==0){
-					//print((string)$answer);
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}else{
-					$hoge=($i-$count)*30+41;
-					$answer = $num/$hoge;
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}
-			*/
 			//axis53,7
 			}else if(15*($count-1)*($count-1)-23*($count-1) == 15*$i*$i-8-$K||
 				15*($count-1)*($count-1)+23*($count-1) == 15*$i*$i-8-$K){
@@ -166,37 +102,6 @@ function load11($num){
 				}else{
 					$answer = axis_load(7,$i,$count,$num);
 				}
-			/*
-				$hoge=($i-$count)*30+53;
-				$answer = $num/$hoge;
-				if($answer - round($answer)==0){
-					//print((string)$answer);
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}else{
-					$hoge=($i-$count)*30+7;
-					$answer = $num/$hoge;
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}
-			}else if(15*($count-1)*($count-1)+23*($count-1) == 15*$i*$i-8-$K){
-				$hoge=($i-$count)*30+53;
-				$answer = $num/$hoge;
-				if($answer - round($answer)==0){
-					//print((string)$answer);
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}else{
-					$hoge=($i-$count)*30+7;
-					$answer = $num/$hoge;
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}
-			*/
 			//axis37,23	
 			}else if(15*($count-1)*($count-1)-7*($count-1) == 15*$i*$i-$K||
 				15*($count-1)*($count-1)+7*($count-1) == 15*$i*$i-$K){
@@ -205,100 +110,29 @@ function load11($num){
 				}else{
 					$answer = axis_load(23,$i,$count,$num);
 				}
-			/*
-				$hoge=($i-$count)*30+53;
-				$answer = $num/$hoge;
-				if($answer - round($answer)==0){
-					//print((string)$answer);
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}else{
-					$hoge=($i-$count)*30+7;
-					$answer = $num/$hoge;
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}
-			}else if(15*($count-1)*($count-1)+7*($count-1) == 15*$i*$i-$K){
-				$hoge=($i-$count)*30+53;
-				$answer = $num/$hoge;
-				if($answer - round($answer)==0){
-					//print((string)$answer);
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}else{
-					$hoge=($i-$count)*30+7;
-					$answer = $num/$hoge;
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}
-			*/
 			//axis43,17
 			}else if(15*($count-1)*($count-1)-13*($count-1) == 15*$i*$i-2-$K||
 				15*($count-1)*($count-1)+13*($count-1) == 15*$i*$i-2-$K){
-				//print("hoge");
 				if( axis_load(43,$i,$count,$num)!=null){
 					$answer = axis_load(43,$i,$count,$num);
-				//	break;
 				}else{
 					$answer = axis_load(17,$i,$count,$num);
-				//	break;
 				}
-			/*
-				$hoge=($i-$count)*30+43;
-				$answer = $num/$hoge;
-				if($answer - round($answer)==0){
-					//print((string)$answer);
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}else{
-					$hoge=($i-$count)*30+7;
-					$answer = $num/$hoge;
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}
-			}else if(15*($count-1)*($count-1)+13*($count-1) == 15*$i*$i-2-$K){
-				$hoge=($i-$count)*30+17;
-				$answer = $num/$hoge;
-				if($answer - round($answer)==0){
-					//print((string)$answer);
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}else{
-					$hoge=($i-$count)*30+7;
-					$answer = $num/$hoge;
-					//print(15*($count-1)*($count-1)-25*($count-1));
-					//print(" ");
-					$break;
-				}
-			*/
 			//axis13,47
 			}else if(15*($count-1)*($count-1)-17*($count-1) == 15*$i*$i-4-$K||
 				15*($count-1)*($count-1)+17*($count-1) == 15*$i*$i-4-$K){
-				//print("hoge");
 				if( axis_load(13,$i,$count,$num)!=null){
 					$answer = axis_load(13,$i,$count,$num);
-				//	break;
 				}else{
 					$answer = axis_load(47,$i,$count,$num);
-				//	break;
 				}
 			//axis19,29
 			}else if(15*($count-1)*($count-1)-5*($count-1) == 15*$i*$i-6*$i+1-$K||
 				15*($count-1)*($count-1)+5*($count-1) == 15*$i*$i-6*$i+1-$K){
-				//print("hoge");
 				if( axis_load(19,$i,$count,$num)!=null){
 					$answer = axis_load(19,$i,$count,$num);
-				//	break;
 				}else{
 					$answer = axis_load(29,$i,$count,$num);
-				//	break;
 				}
 			}else if(15*($count-1)*($count-1)+25*($count-1) < 15*$i*$i+6*$i-9-$K&&
 				15*($count-1)*($count-1)-25*($count-1) < 15*$i*$i+6*$i-9-$K&&
@@ -316,8 +150,6 @@ function load11($num){
 				15*($count-1)*($count-1)+5*($count-1) < 15*$i*$i-6*$i+1-$K){
 				break 1;
 			}
-			//print(15*$i*$i+6*$count-9+6*($i-$count)-$K);
-			//print("\n");
 		}
 	}
 	$stranswer = (string)$answer[0]." ".$answer[1];
@@ -331,7 +163,6 @@ function load13($num){
 	$answer = array(0);
 	while($answer[0] == 0){
 		$count=$count+1;
-		//for($i=$count;$i<=100000;$i++){
 		$i=$count;
 		while(true){
 			//axis43,31

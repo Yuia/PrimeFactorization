@@ -9,8 +9,10 @@ function load7($num){
 		$i=$count;
 		while(true){
 			//axis37,31
-			if(15*($count-1)*($count-1)-3*($count-1) == 15*$i*$i-12*$i+2-$K||
-				15*($count-1)*($count-1)+3*($count-1) == 15*$i*$i-12*$i+2-$K){
+			//if(15*($count-1)*($count-1)-3*($count-1) == 15*$i*$i-12*$i+2-$K||
+				//15*($count-1)*($count-1)+3*($count-1) == 15*$i*$i-12*$i+2-$K){
+			if(15*($count-1)*($count-1)-3*($count-1) == 15*$i*($i-1)+19*$i+1-$K||
+				15*($count-1)*($count-1)+3*($count-1) == 15*$i*($i-1)+19*$i+1-$K){
 				if( axis_load(37,$i,$count,$num)!=null){
 					$answer = axis_load(37,$i,$count,$num);
 				}else{

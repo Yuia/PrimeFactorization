@@ -86,7 +86,9 @@
 					break;
 			}
 			$time = microtime(true) - $time_start;
-			echo "<br>".$time."<br>";
+			echo "<br>";
+			sprintf("%.20f",$time);
+			echo "<br>";
 		?>
 	</body>
 </html>

@@ -13,6 +13,7 @@
 		<?php
 			require("functions.php");
 			$road = null;
+			$time_start = microtime(true);
 			if(isset($_POST['num'])){
 				$road = (int)$_POST['num'] % 60;
 				echo "road ".(int)$road,"<br>";
@@ -84,6 +85,8 @@
 					echo "sorry, not support this number.<br>";
 					break;
 			}
+			$time = microtime(true) - $time_start;
+			echo "<br>".$time."<br>";
 		?>
 	</body>
 </html>

@@ -82,7 +82,7 @@ function load11($num){
 		$i=$count;
 		while(true){
 			//axis11,61
-				print("hoge");
+				//print("hoge");
 			if(15*($count-1)*($count-1)+25*($count-1) == 15*$i*$i+6*$i-9-$K||
 				15*($count-1)*($count-1)-25*($count-1) == 15*$i*$i+6*$i-9-$K){
 				if( axis_load(11,$i,$count,$num)!=null){

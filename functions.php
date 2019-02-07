@@ -734,8 +734,8 @@ function load41($num){
 					$answer = axis_load(13,$i,$count,$num);
 				}
 			//axis49,29
-			}else if(15*($count-1)*($count-1)-10*($count-1) == 15*$i*$i-9*$i-$K||
-				15*($count-1)*($count-1)+10*($count-1) == 15*$i*$i-9*$i-$K){
+			}else if(15*($count-1)*($count-1)-10*($count-1) == 15*$i*$i+9*$i-$K||
+				15*($count-1)*($count-1)+10*($count-1) == 15*$i*$i+9*$i-$K){
 				if( axis_load(49,$i,$count,$num)!=null){
 					$answer = axis_load(49,$i,$count,$num);
 				}else{
@@ -758,8 +758,8 @@ function load41($num){
 					$answer = axis_load(7,$i,$count,$num);
 				}
 			//axis31,11
-			}else if(15*($count-1)*($count-1)-9*($count-1) == 15*$i*$i+10*$i-20-$K||
-				15*($count-1)*($count-1)+9*($count-1) == 15*$i*$i+10*$i-20-$K){
+			}else if(15*($count-1)*($count-1)-10*($count-1) == 15*$i*$i-9*$i-$K||
+				15*($count-1)*($count-1)+10*($count-1) == 15*$i*$i-9*$i-$K){
 				if( axis_load(31,$i,$count,$num)!=null){
 					$answer = axis_load(31,$i,$count,$num);
 				}else{
@@ -768,14 +768,14 @@ function load41($num){
 				
 			}else if(15*($count-1)*($count-1)-2*($count-1) < 15*$i*$i-15*$i+4-$K&&
 				15*($count-1)*($count-1)+2*($count-1) < 15*$i*$i-15*$i+4-$K&&
-				15*($count-1)*($count-1)-10*($count-1) < 15*$i*$i-9*$i-$K&&
-				15*($count-1)*($count-1)+10*($count-1) < 15*$i*$i-9*$i-$K&&
+				15*($count-1)*($count-1)-10*($count-1) < 15*$i*$i+9*$i-$K&&
+				15*($count-1)*($count-1)+10*($count-1) < 15*$i*$i+9*$i-$K&&
 				15*($count-1)*($count-1)-20*($count-1) < 15*$i*$i+9*$i-5-$K&&
 				15*($count-1)*($count-1)+20*($count-1) < 15*$i*$i+9*$i-5-$K&&
 				15*($count-1)*($count-1)-8*($count-1) < 15*$i*$i-15*$i+3-$K&&
 				15*($count-1)*($count-1)+8*($count-1) < 15*$i*$i-15*$i+3-$K&&
-				15*($count-1)*($count-1)-9*($count-1) < 15*$i*$i+10*$i-20-$K&&
-				15*($count-1)*($count-1)+9*($count-1) < 15*$i*$i+10*$i-20-$K){
+				15*($count-1)*($count-1)-10*($count-1) < 15*$i*$i-9*$i-$K&&
+				15*($count-1)*($count-1)+10*($count-1) < 15*$i*$i-9*$i-$K){
 				break 1;
 			}
 			$i++;

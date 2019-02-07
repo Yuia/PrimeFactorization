@@ -154,6 +154,7 @@ function load11($num){
 				15*($count-1)*($count-1)+5*($count-1) < 15*$i*$i-6*$i+1-$K){
 				break 1;
 			}
+			$i++;
 		}
 	}
 	$stranswer = (string)$answer[0]." ".$answer[1];
@@ -221,7 +222,7 @@ function load13($num){
 				15*($count-1)*($count-1)-6*($count-1) < 15*$i*$i-7*$i+1-$K){
 				break 1;
 			}
-			print($num."\n");
+			//print($num."\n");
 			$i++;
 		}
 	}

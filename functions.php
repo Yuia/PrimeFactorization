@@ -1139,6 +1139,7 @@ function load59($num){
 			//axis49,11
 			if(15*($count-1)*($count-1)-19*($count-1) == 15*$i*$i-6-$K||
 				15*($count-1)*($count-1)+19*($count-1) == 15*$i*$i-6-$K){
+				print("hoge");
 				if( axis_load(49,$i,$count,$num)!=null){
 					$answer = axis_load(49,$i,$count,$num);
 				}else{

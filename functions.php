@@ -744,10 +744,10 @@ function load41($num){
 			//axis59,19
 			}else if(15*($count-1)*($count-1)-20*($count-1) == 15*$i*$i+9*$i-5-$K||
 				15*($count-1)*($count-1)+20*($count-1) == 15*$i*$i+9*$i-5-$K){
-				if( axis_load(49,$i,$count,$num)!=null){
-					$answer = axis_load(49,$i,$count,$num);
+				if( axis_load(59,$i,$count,$num)!=null){
+					$answer = axis_load(59,$i,$count,$num);
 				}else{
-					$answer = axis_load(29,$i,$count,$num);
+					$answer = axis_load(19,$i,$count,$num);
 				}
 			//axis23,7
 			}else if(15*($count-1)*($count-1)-8*($count-1) == 15*$i*$i-15*$i+3-$K||

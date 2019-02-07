@@ -1153,8 +1153,8 @@ function load59($num){
 					$answer = axis_load(29,$i,$count,$num);
 				}
 			//axis17,7
-			}else if(15*($count-1)*($count-1)-5*($count-1) == 15*$i*$i+5*$i-$K||
-				15*($count-1)*($count-1)+5*($count-1) == 15*$i*$i+5*$i-$K){
+			}else if(15*($count-1)*($count-1)-5*($count-1) == 15*$i*$i-18*$i+5-$K||
+				15*($count-1)*($count-1)+5*($count-1) == 15*$i*$i-18*$i+5-$K){
 				if( axis_load(17,$i,$count,$num)!=null){
 					$answer = axis_load(17,$i,$count,$num);
 				}else{
@@ -1182,8 +1182,8 @@ function load59($num){
 				15*($count-1)*($count-1)+19*($count-1) < 15*$i*$i-6-$K&&
 				15*($count-1)*($count-1)-1*($count-1) < 15*$i*$i-1*$i-1-$K&&
 				15*($count-1)*($count-1)+1*($count-1) < 15*$i*$i-1*$i-1-$K&&
-				15*($count-1)*($count-1)-5*($count-1) < 15*$i*$i+5*$i-$K&&
-				15*($count-1)*($count-1)+5*($count-1) < 15*$i*$i+5*$i-$K&&
+				15*($count-1)*($count-1)-5*($count-1) < 15*$i*$i-18*$i+5-$K&&
+				15*($count-1)*($count-1)+5*($count-1) < 15*$i*$i-18*$i+5-$K&&
 				15*($count-1)*($count-1)-11*($count-1) < 15*$i*$i+11*$i-$K&&
 				15*($count-1)*($count-1)+11*($count-1) < 15*$i*$i+11*$i-$K&&
 				15*($count-1)*($count-1)-5*($count-1) < 15*$i*$i-12*$i+2-$K&&
